@@ -12,21 +12,23 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise", "default"
+minimal_mistakes_skin    : "default"
+                           # 전체적인 블로그의 색감을 정하는 값
+                           # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise", "default"
 
 # Site Settings
-locale                   : "en-US"
-title                    : "Site Title"
+locale                   : "ko-KR" # 블로그의 주요 언어, 한국어 설정
+title                    : "Jeong_ii Blog" # 사이트 탭에서 보이는 이름
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Your Name"
-description              : "An amazing website."
-url                      : "https://hyunjeong222.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
+subtitle                 : "끄적끄적" # site tagline that appears below site title in masthead, 화면 title 하단에 있는 소제목
+name                     : "Hyen Jeong" # 화면 하단의 이름 영역
+description              : "공부한 내용 기록하는 공간" # 설명란
+url                      : "https://hyunjeong222.github.io" # 현재의 블로그 url
+baseurl                  : # the subpath of your site, e.g. "/blog", 폴백(예기치 못한 오류)일 때 연결되는 url
+repository               : "https://github.com/hyunjeong222/hyunjeong222.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png", 폴백일 때 보일 이미지, "assets/images/"로 연결
+logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png", 화면에 보여지는 logo 이미지, "assets/images"로 세팅
+masthead_title           : "정리가 재밌는 파워 J 개발자" # overrides the website title displayed in the masthead, use " " for no title, 화면 title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
