@@ -29,6 +29,7 @@ repository               : "https://github.com/hyunjeong222/hyunjeong222.github.
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png", 폴백일 때 보일 이미지, "assets/images/"로 연결
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png", 화면에 보여지는 logo 이미지, "assets/images"로 세팅
 masthead_title           : "Jeong_ii's DevLog" # overrides the website title displayed in the masthead, use " " for no title, 화면 title
+future                   : true
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
