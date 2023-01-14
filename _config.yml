@@ -109,7 +109,7 @@ analytics:
 author:
   name             : "Jeong_ii"
   avatar           : "/assets/jerry.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "정리가 재밌는 개발자"
+  bio              : "Developer"
   location         : "Pyeongtaek, South Korea"
   email            : "guswjd2360@naver.com"
   links:
