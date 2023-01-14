@@ -1,6 +1,22 @@
 /* ==========================================================================
    BASE ELEMENTS
    ========================================================================== */
+a { // 추가된 코드, 127번줄 
+  text-decoration: none;
+
+  &:focus {
+    @extend %tab-focus;
+  }
+
+  &:visited {
+    color: $link-color-visited;
+  }
+
+  &:hover {
+    color: $link-color-hover;
+    outline: 0;
+  }
+}
 
 html {
   /* sticky footer fix */
@@ -124,7 +140,7 @@ blockquote {
 }
 
 /* links */
-
+/*
 a {
   &:focus {
     @extend %tab-focus;
@@ -139,7 +155,7 @@ a {
     outline: 0;
   }
 }
-
+*/
 /* buttons */
 
 button:focus {
