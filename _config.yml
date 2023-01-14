@@ -295,3 +295,6 @@ defaults:
       related: true
       mathjax: true
       sidebar_main: true
+      
+# collection 
+collection: portfolio
